@@ -1,48 +1,37 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
- <head>
+<head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Login Page
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
+  <title>Login Page</title>
+  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
- </head>
- <body class="bg-yellow-400 flex items-center justify-center min-h-screen">
-  <div class="text-center">
-   <div class="mb-6">
-    <img src="logo.png" alt="Logo">
-    <h1 class="text-2xl font-bold">
-
-     Células
-    </h1>
-   </div>
-   <h2 class="text-3xl font-bold mb-4">
-    
-    Bem vindo
-    <br/>
-    Faça seu login!
-   </h2>
-   <div class="bg-white p-6 rounded-lg shadow-md w-80 mx-auto">
-    <form>
-     <div class="mb-4">
-      <input class="w-full p-2 border border-gray-300 rounded" placeholder="Email" type="email"/>
-     </div>
-     <div class="mb-4">
-      <input class="w-full p-2 border border-gray-300 rounded" placeholder="Senha" type="password"/>
-     </div>
-     <button class="w-full bg-black text-white py-2 rounded" type="submit">
-      Login
-     </button>
-    </form>
-   </div>
-   <p class="mt-4">
-    Ainda não tem login?
-   </p>
-   <button class="mt-2 bg-black text-white py-2 px-4 rounded">
-    Clique Aqui!
-   </button>
+  <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
+</head>
+<body>
+  <div class="container">
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo">
+      <h1 class="title">Células</h1>
+    </div>
+    <h2 class="subtitle">
+      Bem vindo
+      <br/>
+      Faça seu login!
+    </h2>
+    <div class="form-container">
+      <form>
+        <div class="input-group">
+          <input class="input" placeholder="Email" type="email"/>
+        </div>
+        <div class="input-group">
+          <input class="input" placeholder="Senha" type="password"/>
+        </div>
+        <button class="btn-login" type="submit">Login</button>
+      </form>
+    </div>
+    <p class="mt-4">Ainda não tem login?</p>
+    <button class="btn-register">Clique Aqui!</button>
   </div>
- </body>
+</body>
 </html>
