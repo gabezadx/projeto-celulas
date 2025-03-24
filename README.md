@@ -1,7 +1,7 @@
 # projeto-celulas
 um programa para gerir as celulas 
 
-Desenvolver um programa simples em HTml CSS js. O programa irá permitir que o usuário insira informações sobre uma reunião, como o número de pessoas presentes,pessoas visitantes, PPC(pessoas preparadas para encontro), se a reunião é de homens, mulheres, crianças, jovens ou adolecentes a data da reunião e o valor adquirido, e, em seguida, gere um relatório com esses dados que serão enviados ao usuario admin
+Desenvolver um programa simples em HTml CSS js ( react ). O programa irá permitir que o usuário insira informações sobre uma reunião, como o número de pessoas presentes,pessoas visitantes, PPC(pessoas preparadas para encontro), se a reunião é de homens, mulheres, crianças, jovens ou adolecentes a data da reunião e o valor adquirido, e, em seguida, gere um relatório com esses dados que serão enviados ao usuario admin
 
 requisitos funcionais:
 
