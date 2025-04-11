@@ -6,10 +6,15 @@ Desenvolver um programa simples em HTml CSS js ( react ). O programa irá permit
 requisitos funcionais:
 
 o usario deve fazer cadastro/login inserindo seus dados como email, senha, e cargo( timoteo ou lider)
+
 o usuario deve criar a reunião, declarando qual o dia e o horario e seu publico (homem, mulher, homogenia, para adolecentes ou crianças)
+
 o usuario deve informar quantas pessoas tiveram presentes
+
 o usuario deve informar quantas das pessoas presentes são visitantes e quantas são PPC( pessoas preparadas para o encontro)
+
 o usuario deve informar o valor arrecadado por reunião
+
 o usuario deve justificar os dias em que não ouverem reunioes
 
 requisitos não funcionais:
