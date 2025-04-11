@@ -5,27 +5,18 @@ Desenvolver um programa simples em HTml CSS js ( react ). O programa irá permit
 
 requisitos funcionais:
 
-Cadastro de Reunião: Inserção de dados como número de pessoas, tipo de público, data e valor adquirido.
-Validação de Dados: Verificação de entradas numéricas e formato de data correto.
-Geração de Relatório: Criação de relatório com os dados inseridos.
-Envio ao Admin: Envio do relatório gerado para o administrador.
-Armazenamento: Armazenamento de dados para consultas futuras.
-Interface Simples: Interface intuitiva com validações claras.
-Controle de Acesso: Usuários comuns inserem dados, administradores visualizam e editam
-Visualização de Reuniões: Consulta e filtro de reuniões passadas.
-Mensagens de Status: Feedback de sucesso ou erro para o usuário.
-Segurança: Proteção dos dados inseridos
+o usario deve fazer cadastro/login inserindo seus dados como email, senha, e cargo( timoteo ou lider)
+o usuario deve criar a reunião, declarando qual o dia e o horario e seu publico (homem, mulher, homogenia, para adolecentes ou crianças)
+o usuario deve informar quantas pessoas tiveram presentes
+o usuario deve informar quantas das pessoas presentes são visitantes e quantas são PPC( pessoas preparadas para o encontro)
+o usuario deve informar o valor arrecadado por reunião
+o usuario deve justificar os dias em que não ouverem reunioes
 
 requisitos não funcionais:
 
-Desempenho: Processamento rápido (inserção <2s, relatório <5s para 100 registros).
-Usabilidade: Interface intuitiva com mensagens de status claras.
-Segurança: Controle de acesso, proteção contra injeções de código e dados seguros.
-Escalabilidade: Suporte a grande volume de dados sem perda de desempenho.
-Confiabilidade: Dados íntegros, sem duplicidades e com backup periódico.
-Compatibilidade: Suporte a múltiplos sistemas operacionais e navegadores.
-Manutenibilidade: Código modular e bem documentado para fácil atualização.
-Disponibilidade: Mínimo de 99% de uptime, com recuperação em caso de falhas.
+o usuario não pode acessar a area do admim
+o usuario não pode ter acesso a informaçoes de outras reunioes
+o usuario não pode editar as informaçoes de suas reunioes passadas
 
 Usabilidade:
 
