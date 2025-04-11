@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Criação de Células</title>
+</head>
+<body class="bg-yellow-400 flex flex-col items-center justify-center min-h-screen px-4">
+
+  <!-- Cabeçalho -->
+  <div class="text-center mb-8">
+    <div class="text-6xl mb-4">
+      <i class="fas fa-book"></i>
+    </div>
+    <div class="text-xl font-semibold mb-2">Células</div>
+    <div class="text-3xl font-bold">Crie a sua célula!</div>
+  </div>
+
+  <!-- Container do formulário -->
+  <div class="form-container w-full max-w-sm">
+    <h2 class="text-lg font-semibold mb-4 text-center">Escolha o Tipo de Célula</h2>
+    <form>
+      <label for="tipoCelula" class="block text-gray-700 font-medium mb-2">Tipo:</label>
+      <select id="tipoCelula" name="tipoCelula" class="w-full p-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4">
+        <option value="">Selecione</option>
+        <option value="homem">Homem</option>
+        <option value="mulher">Mulher</option>
+        <option value="crianca">Criança</option>
+        <option value="adolescente">Adolescente</option>
+        <option value="homogenia">Homogênea</option>
+      </select>
+
+      <label class="block text-gray-700 font-medium mb-2">Dia da Semana:</label>
+  <div class="dias-semana">
+    <label><input type="radio" name="diaSemana" value="segunda"> Seg</label>
+    <label><input type="radio" name="diaSemana" value="terca"> Ter</label>
+    <label><input type="radio" name="diaSemana" value="quarta"> Qua</label>
+    <label><input type="radio" name="diaSemana" value="quinta"> Qui</label>
+    <label><input type="radio" name="diaSemana" value="sexta"> Sex</label>
+    <label><input type="radio" name="diaSemana" value="sabado"> Sáb</label>
+
+    <label for="horario" class="block text-gray-700 font-medium mb-2">Horário:</label>
+  <input type="time" id="horario" name="horario" class="w-full p-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+</div>
+
+      <button class="btn-preto" type="submit">Confirmar</button>
+    </form>
+  </div>
+
+</body>
+</html>
